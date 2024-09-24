@@ -87,13 +87,13 @@ export const Contact = () => {
               <Card.Body>
                 <Card.Title>Información de Contacto</Card.Title>
                 <Card.Text>
-                  <strong>Dirección:</strong> 123 Calle Principal, Ciudad, País
+                  <strong>Dirección:</strong> Calle 33 # 12-1203, Medellín, Antioquia
                 </Card.Text>
                 <Card.Text>
-                  <strong>Teléfono:</strong> (123) 456-7890
+                  <strong>Teléfono:</strong> (301) 456-7890
                 </Card.Text>
                 <Card.Text>
-                  <strong>Correo Electrónico:</strong> contacto@empresa.com
+                  <strong>Correo Electrónico:</strong> pabloquiceno@empresa.com
                 </Card.Text>
               </Card.Body>
             </Card>

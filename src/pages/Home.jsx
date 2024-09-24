@@ -1,5 +1,10 @@
 import { MainLayout } from "../layouts/MainLayout";
 import { Container, Row, Col, Card, Carousel } from "react-bootstrap";
+import ordenes from '../assets/ordenes.png'
+import todos from '../assets/todos.png'
+import tiempo from '../assets/tiempo.png'
+import persona1 from '../assets/persona1.png'
+import persona2 from '../assets/persona2.png'
 
 export const Home = () => {
   const servicios = [
@@ -8,21 +13,21 @@ export const Home = () => {
       titulo: "Manejo de órdenes",
       descripcion:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-      imagen: "https://via.placeholder.com/300x200", // URL de imagen de ejemplo
+      imagen: ordenes
     },
     {
       id: 2,
       titulo: "Manejo de tareas",
       descripcion:
         "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took",
-      imagen: "https://via.placeholder.com/300x200", // URL de imagen de ejemplo
+      imagen: todos
     },
     {
       id: 3,
-      titulo: "Eficienta de tiempo",
+      titulo: "Eficiencia de tiempo",
       descripcion:
         "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took",
-      imagen: "https://via.placeholder.com/300x200", // URL de imagen de ejemplo
+      imagen: tiempo
     },
   ];
 
@@ -32,22 +37,15 @@ export const Home = () => {
       nombre: "Juan Pérez",
       comentario:
         "Excelente servicio y soporte. Mi negocio ha crecido gracias a su estrategia.",
-      imagen: "https://via.placeholder.com/150", // URL de imagen del cliente
+      imagen: persona1
     },
     {
       id: 2,
       nombre: "María López",
       comentario:
         "El equipo es muy profesional y siempre están dispuestos a ayudar. ¡Muy recomendado!",
-      imagen: "https://via.placeholder.com/150",
-    },
-    {
-      id: 3,
-      nombre: "Carlos García",
-      comentario:
-        "La consultoría fue fundamental para optimizar nuestros procesos internos.",
-      imagen: "https://via.placeholder.com/150",
-    },
+      imagen: persona2
+    }
   ];
 
   return (
