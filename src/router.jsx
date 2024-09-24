@@ -6,11 +6,12 @@ import { Users } from "./pages/Users";
 import { Todo } from "./pages/Todo";
 import { Order } from "./pages/Orders";
 import { Contact } from "./pages/Contact";
+import { PageNotFound } from "./pages/PageNotFound";
 
 const router = createBrowserRouter([
   {
-    path: "/",
-    element: <App />,
+    path: '/',
+    element: <Home />
   },
   {
     path: '/sign-up',
@@ -35,6 +36,10 @@ const router = createBrowserRouter([
   {
     path: '/contact',
     element: <Contact />
+  },
+  {
+    path: '*',
+    element: <PageNotFound />
   }
 ]);
 
